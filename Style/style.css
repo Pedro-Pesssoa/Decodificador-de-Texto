@@ -1,0 +1,115 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F5FC;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+/*Logo*/
+.logo {
+    width: 120px;
+    height: 48px;
+    margin: 40px;
+}
+
+.img-logo {
+    position: absolute;
+    margin-left: 44px;
+} 
+
+/*Campo de texto*/
+.campo-de-texto {
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    margin: 0px 240px 0px 80px;
+}
+
+.campo-de-texto textarea{
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #F3F5FC;
+    margin: 0px 240px 0px 80px;
+}
+
+.campo-de-texto textarea::placeholder {
+    color: #0A3871;
+}
+
+/*Nenhuma mensagem econtrada*/
+.nenhuma-mensagem {
+    /*Formato*/
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 0px;
+
+    /* White */
+    background: #FFFFFF;
+
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.img-nenhuma-mensagem {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    margin-top: 200px;
+    margin-left: 32px;
+    margin-right: 32px;
+    }
+
+.texto-nenhuma-mensagem {
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    margin: 579px 32px 243px 32px;
+    }
+
+.texto-nenhuma-mensagem h1 {
+    width: 336px;
+    height: 58px;
+
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+
+    color: #343A40;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.texto-nenhuma-mensagem p {
+    width: 336px;
+    height: 48px;
+
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #495057;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
